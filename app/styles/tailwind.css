@@ -1,0 +1,89 @@
+@reference "../globals.css";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    @apply flex justify-center items-center bg-sky-300;
+}
+main{
+    @apply rounded-2xl flex flex-col justify-center;
+    padding: 30px;
+}
+h1{
+    @apply text-xl font-bold mb-2;
+}
+#visor{
+    @apply bg-white border-2 rounded-2xl h-20 mb-3;
+    @apply text-4xl text-right pr-3;
+    max-width: 350px; 
+    width: 100%
+}
+#botoesContainer{
+    height: 100%;
+    @apply grid gap-2.75;
+    grid-template-areas:
+    "btC btCe btDivisao btMultiplicacao"
+    'bt1 bt2 bt3 btSubtracao'
+    'bt4 bt5 bt6 btAdicao'
+    'bt7 bt8 bt9 btIgual'
+    'bt0 bt0 btPonto btIgual';
+    grid-template-rows: 57px 57px 57px 57px 57px;
+    grid-template-columns: 79px 79px 79px 79px;
+}
+#btAdicao{
+    grid-area: btAdicao;
+}
+#btSubtracao{
+    grid-area: btSubtracao;
+}
+#btMultiplicacao{
+    grid-area: btMultiplicacao;
+}
+#btDivisao{
+    grid-area: btDivisao;
+}
+#btC{
+    grid-area: btC;
+}
+#btCe{
+    grid-area: btCe;
+}
+#btIgual{
+    grid-area: btIgual;
+}
+#bt0{
+    grid-area: bt0;
+}
+#bt1{
+    grid-area: bt1
+}
+#bt2{
+    grid-area: bt2
+}
+#bt3{
+    grid-area: bt3
+}
+#bt4{
+    grid-area: bt4
+}
+#bt5{
+    grid-area: bt5
+}
+#bt6{
+    grid-area: bt6
+}
+#bt7{
+    grid-area: bt7
+}
+#bt8{
+    grid-area: bt8
+}
+#bt9{
+    grid-area: bt9
+}
+.botaoEspecial{
+    @apply bg-stone-400 text-white
+}
