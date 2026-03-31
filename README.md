@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<img width="743" height="674" alt="image" src="https://github.com/user-attachments/assets/aa3d5e14-3ecb-409f-b517-997c0370873f" />
 
-## Getting Started
 
-First, run the development server:
+# 🧮 React Tailwind Calculator
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+A modern and responsive web calculator built with React, Next.js, and Tailwind CSS.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[English](#english) | [Português](#português)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+<a name="english"></a>
+## 🇺🇸 English
 
-## Learn More
+### 📝 Description
+This is a functional web calculator developed to practice React state management and Tailwind CSS styling. It features a clean interface and supports basic arithmetic operations, including error handling for division by zero.
 
-To learn more about Next.js, take a look at the following resources:
+### 🚀 Technologies
+* **React** (Functional Components & Hooks)
+* **Next.js** (App Router)
+* **Tailwind CSS** (Utility-first styling)
+* **TypeScript** (Type safety)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### ✨ Key Features
+* **Dynamic Rendering:** Number and operator buttons are generated dynamically through mapping.
+* **State Management:** Uses `useState` to handle display values and calculations.
+* **Responsive Design:** Styled with Tailwind CSS for a consistent look.
+* **Operations:** Addition, Subtraction, Multiplication, Division, and Clear (C/CE) functions.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+<a name="português"></a>
+## 🇧🇷 Português
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 📝 Descrição
+Esta é uma calculadora web funcional desenvolvida para praticar o gerenciamento de estados no React e a estilização com Tailwind CSS. Possui uma interface limpa e suporta operações aritméticas básicas, incluindo tratamento de erro para divisão por zero.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 🚀 Tecnologias
+* **React** (Componentes Funcionais & Hooks)
+* **Next.js** (App Router)
+* **Tailwind CSS** (Estilização baseada em utilitários)
+* **TypeScript** (Segurança de tipos)
+
+### ✨ Principais Funcionalidades
+* **Renderização Dinâmica:** Os botões de números e operadores são gerados dinamicamente via mapeamento de arrays.
+* **Gerenciamento de Estado:** Utiliza `useState` para manipular os valores do visor e resultados.
+* **Design Responsivo:** Interface estilizada com Tailwind CSS.
+* **Operações:** Adição, Subtração, Multiplicação, Divisão e funções de limpeza (C/CE).
+
+---
+
+### 👤 Author / Autor
+**Gabriel**
+* **GitHub:** (https://github.com/MestreJoker)
+* **LinkedIn:** (https://www.linkedin.com/in/gabriel-ds-gomes/)
