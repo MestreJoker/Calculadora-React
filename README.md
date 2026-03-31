@@ -1,4 +1,4 @@
-<img width="743" height="674" alt="image" src="https://github.com/user-attachments/assets/aa3d5e14-3ecb-409f-b517-997c0370873f" />
+<img width="371" height="337" alt="image" src="https://github.com/user-attachments/assets/aa3d5e14-3ecb-409f-b517-997c0370873f" />
 
 
 # 🧮 React Tailwind Calculator
